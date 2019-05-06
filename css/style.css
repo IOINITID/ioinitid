@@ -1,0 +1,1066 @@
+/*--index.html styles--*/
+@font-face {
+  font-family: "HelveticaNeueCyrThin";
+  src: url("../fonts/HelveticaNeueCyrThin.woff") format("woff");
+}
+
+.body-color {
+  font-size: 14px;
+  background-color: #00bd72;
+  animation: colors 60s infinite ease-in-out;
+  animation-direction: alternate;
+  font-family: "HelveticaNeueCyrThin", "Arial", sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+  text-shadow: 0 0 10px #000000;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: auto;
+}
+
+.greeting {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 210px;
+  color: #ffffff;
+  text-shadow: 0 0 10px #000000;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.greeting-size {
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.information {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #ffffff;
+  text-shadow: 0 0 5px darkgray;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 60px;
+}
+
+.about-me {
+  width: 300px;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  border: 2px solid transparent;
+  box-shadow: 0 0 5px transparent;
+  font-size: 25px;
+  outline: 0;
+  text-shadow: 0 0 10px #000000;
+}
+
+.about-me:hover,
+.about-me:focus {
+  animation: border 60s infinite;
+  text-shadow: 0 0 10px #000000;
+}
+
+.my-works {
+  width: 300px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 5px transparent;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 25px;
+  outline: 0;
+  text-shadow: 0 0 10px #000000;
+}
+
+.my-works:hover,
+.my-works:focus {
+  animation: border 60s infinite;
+  text-shadow: 0 0 10px #000000;
+}
+
+.my-email {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  text-shadow: 0 0 5px darkgray;
+  margin-top: 230px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  outline: 0;
+  text-shadow: 0 0 10px #000000;
+}
+
+.my-email:hover,
+.my-email:focus {
+  opacity: 0.5;
+  text-shadow: 0 0 10px #000000;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.git-logo {
+  background-image: url("../img/git-logo.svg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 0 5px darkgray;
+  margin-right: 20px;
+  outline: 0;
+}
+
+.git-logo:hover,
+.git-logo:focus {
+  opacity: 0.5;
+}
+
+.vk-logo {
+  background-image: url("../img/vk-logo.svg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 0 5px darkgray;
+  margin-right: 20px;
+  outline: 0;
+}
+
+.vk-logo:hover,
+.vk-logo:focus {
+  opacity: 0.5;
+}
+
+.instagram-logo {
+  background-image: url("../img/instagram-logo.svg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 0 5px darkgray;
+  margin-right: 20px;
+  outline: 0;
+}
+
+.instagram-logo:hover,
+.instagram-logo:focus {
+  opacity: 0.5;
+}
+
+@keyframes border {
+  0% {
+    border: 2px solid #ffffff;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+  }
+
+  1% {
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 5px darkgray;
+  }
+
+  100% {
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 5px darkgray;
+  }
+}
+
+@keyframes colors {
+  0% {
+    background-color: #00693f;
+  }
+
+  7.1% {
+    background-color: #007e4c;
+  }
+
+  14.2% {
+    background-color: #009358;
+  }
+
+  21.3% {
+    background-color: #00a865;
+  }
+
+  28.4% {
+    background-color: #00bd72;
+  }
+
+  35.5% {
+    background-color: #196ba0;
+  }
+
+  42.6% {
+    background-color: #327bab;
+  }
+
+  49.7% {
+    background-color: #4c8cb5;
+  }
+
+  56.8% {
+    background-color: #669cc0;
+  }
+
+  63.9% {
+    background-color: #7fadca;
+  }
+
+  71% {
+    background-color: #800080;
+  }
+
+  78.1% {
+    background-color: #8c198c;
+  }
+
+  85.2% {
+    background-color: #993299;
+  }
+
+  92.3% {
+    background-color: #a64ca6;
+  }
+
+  100% {
+    background-color: #b266b2;
+  }
+}
+
+
+/*---my-works.html styles---*/
+
+
+
+.about-wrapper {
+  display: flex;
+  background-image: url("../img/texture-white-six.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+}
+
+/*
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100vh;
+  background: linear-gradient(#000000, #323232);
+}
+*/
+
+
+
+.go-main {
+  display: flex;
+  align-self: flex-end;
+  margin-top: 20%;
+  width: 175px;
+  height: 50px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.go-main-text {
+  background-color: rgba(255, 50, 50, 0.75);
+  text-decoration: none;
+  font-size: 20px;
+  text-align: right;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 2px solid transparent;
+}
+
+.go-main-text:hover,
+.go-main-text:focus {
+  animation: border-go-main 60s ease-in-out;
+}
+
+.about-myself {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 30%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.about-myself-text {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 2px solid transparent;
+}
+
+.about-myself-text:hover,
+.about-myself-text:focus {
+  animation: border-other 60s ease-in-out;
+}
+
+.career-path {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 20%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.career-path-text {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 2px solid transparent;
+}
+
+.career-path-text:hover,
+.career-path-text:focus {
+  animation: border-other 60s ease-in-out;
+}
+
+.contact {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 20%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact-text {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 2px solid transparent;
+}
+
+.contact-text:hover,
+.contact-text:focus {
+  animation: border-other 60s ease-in-out;
+}
+
+@keyframes border-go-main {
+  % {
+    border: 2px solid #ffffff;
+    background-color: #ff3232;
+    border-color: transparent;
+    color: #ffffff;
+  }
+
+  % {
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 5px #ffffff;
+  }
+
+  % {
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 5px #ffffff;
+  }
+}
+
+@keyframes border-other {
+  % {
+    border: 2px solid #ffffff;
+    border-color: transparent;
+    color: #ffffff;
+  }
+
+  % {
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 5px #ffffff;
+  }
+
+  % {
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 5px #ffffff;
+  }
+}
+
+.my-works-main {
+  margin: 0 auto;
+  font-size: 20px;
+  /*  text-transform: uppercase;*/
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  position: absolute;
+  width: 1px;
+}
+
+/*@media screen and (min-width: 1281px) {*/
+
+.about-body {
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeueCyrThin", "Arial", sans-serif;
+  font-weight: 400;
+}
+
+.top-menu {
+  display: flex;
+  width: 100%;
+  min-height: 100px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #e5e5e5;
+  box-shadow: 0 0 25px #000000;
+}
+
+.my-photo {
+  margin: 0;
+  padding: 0;
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  background-image: url("../img/myPhoto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 5px solid #ffffff;
+  align-content: flex-start;
+  margin: auto;
+  position: relative;
+  left: -30%;
+  box-shadow: 0 0 25px #cecece;
+}
+
+.go-to-main {
+  text-decoration: none;
+  color: #000000;
+}
+
+.about-my-photo {
+  position: absolute;
+  left: 15%;
+  top: 37.5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.links-to {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  opacity: 0.5;
+  transition: none;
+  box-shadow: 0 0 0 transparent;
+}
+
+.about-go-about {
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  font-size: 20px;
+  /*  text-transform: uppercase;*/
+  text-decoration: none;
+  padding: 10px 10px 5px 10px;
+  text-shadow: 0 0 10px #e5e5e5;
+  border: 2px solid #e5e5e5;
+  /*  border-radius: 50px;*/
+  color: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.about-go-works {
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  font-size: 20px;
+  /*  text-transform: uppercase;*/
+  text-decoration: none;
+  padding: 10px 10px 5px 10px;
+  text-shadow: 0 0 10px #e5e5e5;
+  border: 2px solid #e5e5e5;
+  /*  border-radius: 50px;*/
+  color: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.about-go-works:hover,
+.about-go-works:focus {
+  transition: all 0.25s;
+  box-shadow: 0 0 10px #ff0000;
+}
+
+.about-myself-one {
+  margin: 0;
+  padding: 0;
+  width: 33%;
+  text-align: left;
+  line-height: 150%;
+  margin: 25px 10px;
+  /*  border-radius: 50px;*/
+  border: 4px solid #e5e5e5;
+  padding: 15px;
+  text-shadow: 0 0 10px #e5e5e5;
+  box-shadow: 0 15px 50px #cecece;
+  font-size: 15px;
+  cursor: default;
+}
+
+.about-myself-one h2 {
+  text-align: center;
+}
+
+.about-myself-one:hover,
+.about-myself-one:focus {
+  transition: all 0.25s;
+  box-shadow: 0 15px 50px #009358;
+}
+
+
+.about-myself-two:hover,
+.about-myself-two:focus {
+  transition: all 0.25s;
+  box-shadow: 0 15px 50px #4c8cb5;
+}
+
+
+.about-myself-three:hover,
+.about-myself-three:focus {
+  transition: all 0.25s;
+  box-shadow: 0 15px 50px #993299;
+}
+
+.about-myself-info {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-myself-two {
+  margin: 0;
+  padding: 0;
+  width: 33%;
+  text-align: left;
+  line-height: 150%;
+  margin: 25px 10px;
+  /*  border-radius: 50px;*/
+  border: 4px solid #e5e5e5;
+  padding: 15px;
+  text-shadow: 0 0 10px #e5e5e5;
+  box-shadow: 0 15px 50px #cecece;
+  font-size: 15px;
+}
+
+.about-myself-two h2 {
+  text-align: center;
+}
+
+.about-myself-two-under {
+  list-style: none;
+}
+
+.about-myself-three-under {
+  list-style: none;
+}
+
+.about-myself-three {
+  margin: 0;
+  padding: 0;
+  width: 33%;
+  text-align: left;
+  line-height: 150%;
+  margin: 25px 10px;
+  /*  border-radius: 50px;*/
+  border: 4px solid #e5e5e5;
+  padding: 15px;
+  text-shadow: 0 0 10px #e5e5e5;
+  box-shadow: 0 15px 50px #cecece;
+  font-size: 15px;
+}
+
+.about-myself-three h2 {
+  text-align: center;
+}
+
+.bottom-info {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-list {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  line-height: 150%;
+  margin: 25px 10px;
+  /*  border-radius: 50px;*/
+  border: 4px solid #e5e5e5;
+  padding: 25px;
+  text-shadow: 0 0 10px #e5e5e5;
+  box-shadow: 0 15px 50px #cecece;
+  font-size: 20px;
+  align-self: center;
+}
+
+.contact-list:hover,
+.contact-list:focus {
+  transition: all 0.25s;
+  box-shadow: 0 15px 50px #ffa500;
+}
+
+.contact-email {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.contact-email:hover,
+.contact-email:focus {
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.contact-number {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.contact-number:hover,
+.contact-number:focus {
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.contact-git {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.contact-git:hover,
+.contact-git:focus {
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.contact-vk {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.contact-vk:hover,
+.contact-vk:focus {
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.contact-instagram {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.contact-instagram:hover,
+.contact-instagram:focus {
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.achievment-list {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  height: 500px;
+  text-align: center;
+  line-height: 150%;
+  margin: 25px 20px;
+  /*  border-radius: 25px;*/
+  border: 4px solid #e5e5e5;
+  padding: 20px;
+  text-shadow: 0 0 10px #e5e5e5;
+  box-shadow: 0 15px 50px #cecece;
+  font-size: 15px;
+}
+
+.achievment-list:hover,
+.achievment-list:focus {
+  transition: all 0.25s;
+  box-shadow: 0 15px 50px #a821f9;
+}
+
+.first-course {
+  font-size: 15px;
+  border-bottom: 2px solid #cecece;
+}
+
+.first-course-img {
+  width: 250px;
+  height: 450px;
+  background-image: url("../img/354237-001.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px;
+  margin-top: 10px;
+}
+
+/*}*/
+
+/*---my-works.html styles---*/
+
+
+
+@media screen and (max-width: 767px) {
+
+  .wrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .greeting {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    color: #ffffff;
+    text-shadow: 0 0 10px #000000;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .greeting-size {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .information {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 0 0 5px darkgray;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 60px;
+  }
+
+  .about-me {
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    margin: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    border: 2px solid transparent;
+    box-shadow: 0 0 5px transparent;
+    font-size: 25px;
+    outline: 0;
+    text-shadow: 0 0 10px #000000;
+  }
+
+  .about-me:hover,
+  .about-me:focus {
+    animation: border 60s infinite;
+    text-shadow: 0 0 10px #000000;
+  }
+
+  .my-works {
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    border: 2px solid transparent;
+    box-shadow: 0 0 5px transparent;
+    margin: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 25px;
+    outline: 0;
+    text-shadow: 0 0 10px #000000;
+  }
+
+  .my-works:hover,
+  .my-works:focus {
+    animation: border 60s infinite;
+    text-shadow: 0 0 10px #000000;
+  }
+
+  .my-email {
+    margin: 0;
+    padding: 0;
+    width: min-content;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    text-shadow: 0 0 5px darkgray;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+    outline: 0;
+    text-shadow: 0 0 10px #000000;
+    margin: 0 auto;
+    margin-top: 25%;
+  }
+
+  .my-email:hover,
+  .my-email:focus {
+    opacity: 0.5;
+    text-shadow: 0 0 10px #000000;
+  }
+
+  .social-networks {
+    margin: 0;
+    padding: 0;
+    width: min-content;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+  }
+
+  .git-logo {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/git-logo.svg");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 5px darkgray;
+    outline: 0;
+    margin-right: 5%;
+  }
+
+  .git-logo:hover,
+  .git-logo:focus {
+    opacity: 0.5;
+  }
+
+  .vk-logo {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/vk-logo.svg");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 5px darkgray;
+    outline: 0;
+    margin-right: 5%;
+  }
+
+  .vk-logo:hover,
+  .vk-logo:focus {
+    opacity: 0.5;
+  }
+
+  .instagram-logo {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/instagram-logo.svg");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 5px darkgray;
+    outline: 0;
+    margin-right: 5%;
+  }
+
+  .instagram-logo:hover,
+  .instagram-logo:focus {
+    opacity: 0.5;
+  }
+
+}
+
+/*--works.html styles--*/
+
+/*@media screen and (min-width: 1281px) {*/
+
+
+.works-body {
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeueCyrThin", "Arial", sans-serif;
+  font-weight: 400;
+}
+
+
+.works-wrapper {
+  display: flex;
+  background-image: url("../img/texture-white-six.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.works-list {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  height: 500px;
+  text-align: center;
+  line-height: 150%;
+  margin: 25px 20px;
+  /*  border-radius: 25px;*/
+  border: 4px solid #e5e5e5;
+  padding: 20px;
+  text-shadow: 0 0 10px #e5e5e5;
+  box-shadow: 0 15px 50px #cecece;
+  font-size: 15px;
+
+}
+
+
+.works-list:hover,
+.works-list:focus {
+  transition: all 0.25s;
+  box-shadow: 0 15px 50px #a821f9;
+}
+
+.first-work {
+  font-size: 15px;
+  border-bottom: 2px solid #cecece;
+}
+
+.first-work-img {
+  width: 250px;
+  height: 450px;
+  background-image: url("../img/sedona.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+  margin-top: 10px;
+  box-shadow: 0 0 20px #e5e5e5;
+}
+
+.works-go-about {
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  font-size: 20px;
+  /*  text-transform: uppercase;*/
+  text-decoration: none;
+  padding: 10px 10px 5px 10px;
+  text-shadow: 0 0 10px #e5e5e5;
+  border: 2px solid #e5e5e5;
+  /*  border-radius: 50px;*/
+  color: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.works-go-about:hover,
+.works-go-about:focus {
+  transition: all 0.25s;
+  box-shadow: 0 0 10px #ff0000;
+}
+
+.works-go-works {
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 10px 5px 10px;
+  text-shadow: 0 0 10px #e5e5e5;
+  border: 2px solid #e5e5e5;
+  color: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .my-photo {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    background-image: url("../img/myPhoto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #ffffff;
+    align-content: flex-start;
+    margin: auto;
+    position: relative;
+    left: -27.5%;
+    box-shadow: 0 0 25px #cecece;
+  }
+
+  .about-my-photo {
+    font-size: 20px;
+  }
+
+  .about-myself-one {
+    margin: 20px;
+  }
+
+  .about-myself-two {
+    margin: 20px;
+  }
+
+  .about-myself-three {
+    margin: 20px;
+  }
+
+  .contact-list {
+    width: 90%;
+  }
+
+  .achievment-list {
+    width: 300px;
+    background-size: contain;
+  }
+
+  .first-course-img {
+    width: 300px;
+  }
+}
+
+/*}*/
